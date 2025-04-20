@@ -104,7 +104,7 @@
       "homeTeam": "Atletico Madrid",
       "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/1200px-Atletico_Madrid_Logo_2024.svg.png",
       "awayTeam": "Sevilla",
-      "awayTeamLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAtsyOoOVd_LIYyMqoE0kIgrOKR9kwWK4MmA&s",
+      "awayTeamLogo": "",
       "homeOdds": 2.3,
       "awayOdds": 2.9,
       "drawOdds": 3.1,
@@ -158,15 +158,6 @@
       "odds": 1.8,
       "status": "won",
       "notified": true
-    },
-    {
-      "id": "83ba",
-      "gameId": "1",
-      "match": "Arsenal vs Man City",
-      "betOn": "Arsenal",
-      "amount": 50,
-      "odds": 2.5,
-      "status": "pending"
     }
   ]
 }

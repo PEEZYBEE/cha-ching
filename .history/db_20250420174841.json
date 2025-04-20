@@ -36,7 +36,7 @@
     {
       "id": "4",
       "homeTeam": "Bayern Munich",
-      "homeTeamLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLL_mt8ufVH3Vp_fJCv_1nhaXvl7PCBGdJGY9xZnS-3QWHxciJAuDH1AKaLK-St-UaQQ0&usqp=CAU",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/FC_Bayern_München_logo_%282017%29.svg/120px-FC_Bayern_München_logo_%282017%29.svg.png",
       "awayTeam": "Borussia Dortmund",
       "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
       "homeOdds": 1.9,
@@ -58,7 +58,7 @@
     {
       "id": "6",
       "homeTeam": "Inter Milan",
-      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/2048px-FC_Internazionale_Milano_2021.svg.png",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/0/05/FC_Internazionale_Milano_2021.svg",
       "awayTeam": "AC Milan",
       "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
       "homeOdds": 2.1,
@@ -69,9 +69,9 @@
     {
       "id": "7",
       "homeTeam": "Juventus",
-      "homeTeamLogo": "https://i.pinimg.com/474x/49/a8/c6/49a8c6ef4454f6fe735d1b9ca3d061cf.jpg",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg",
       "awayTeam": "Napoli",
-      "awayTeamLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDYH_vR7azQimMDmhJOMk3dTt7mqz3GN3w1w&s",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli.svg",
       "homeOdds": 2.4,
       "awayOdds": 2.6,
       "drawOdds": 3,
@@ -82,7 +82,7 @@
       "homeTeam": "Ajax",
       "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/7/79/Ajax_Amsterdam.svg",
       "awayTeam": "Feyenoord",
-      "awayTeamLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBQs0YE_ZTpEikcy_WjBvOI3KWGym5dJzONg&s",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Feyenoord_Logo.svg",
       "homeOdds": 2.2,
       "awayOdds": 2.8,
       "drawOdds": 3.4,
@@ -102,9 +102,9 @@
     {
       "id": "10",
       "homeTeam": "Atletico Madrid",
-      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Atletico_Madrid_Logo_2024.svg/1200px-Atletico_Madrid_Logo_2024.svg.png",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
       "awayTeam": "Sevilla",
-      "awayTeamLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAtsyOoOVd_LIYyMqoE0kIgrOKR9kwWK4MmA&s",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/3/3c/Sevilla_CF_logo.svg",
       "homeOdds": 2.3,
       "awayOdds": 2.9,
       "drawOdds": 3.1,
@@ -158,15 +158,6 @@
       "odds": 1.8,
       "status": "won",
       "notified": true
-    },
-    {
-      "id": "83ba",
-      "gameId": "1",
-      "match": "Arsenal vs Man City",
-      "betOn": "Arsenal",
-      "amount": 50,
-      "odds": 2.5,
-      "status": "pending"
     }
   ]
 }

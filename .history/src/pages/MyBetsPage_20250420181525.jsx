@@ -35,7 +35,7 @@ export default function MyBetsPage({ myBets: propBets }) {
           {myBets.map((bet) => {
             const winnings = bet.status === "won" 
               ? (bet.amount * bet.odds).toFixed(2)
-              : (bet.amount * bet.odds).toFixed(2); 
+              : (bet.amount * bet.odds).toFixed(2); // still show expected
 
             return (
               <div key={bet.id} className="p-4 bg-white rounded shadow">

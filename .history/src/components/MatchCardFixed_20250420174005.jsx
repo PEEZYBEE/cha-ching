@@ -1,25 +1,25 @@
 export default function MatchCardFixed({ match, onPlaceBet }) {
-  const smallLogoTeams = ["Barcelona"]; // Add more teams here
+  const smallLogoTeams = ["Barcelona"]; // Add more teams here if needed
 
   const getLogoClass = (team) =>
-    smallLogoTeams.includes(team) ? "w-10 h-10" : "w-12 h-12";
+    smallLogoTeams.includes(team) ? "h-10 w-10" : "h-12 w-12";
 
   return (
     <div className="border p-4 rounded shadow bg-white">
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
-          <img
-            src={match.homeTeamLogo}
-            alt={match.homeTeam}
-            className={`object-contain ${getLogoClass(match.homeTeam)}`}
+          <object
+            data={match.homeTeamLogo}
+            type="image/svg+xml"
+            className={getLogoClass(match.homeTeam)}
           />
           <span className="font-semibold text-lg">
             {match.homeTeam} vs {match.awayTeam}
           </span>
-          <img
-            src={match.awayTeamLogo}
-            alt={match.awayTeam}
-            className={`object-contain ${getLogoClass(match.awayTeam)}`}
+          <object
+            data={match.awayTeamLogo}
+            type="image/svg+xml"
+            className={getLogoClass(match.awayTeam)}
           />
         </div>
       </div>

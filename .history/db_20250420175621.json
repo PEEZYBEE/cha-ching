@@ -158,15 +158,6 @@
       "odds": 1.8,
       "status": "won",
       "notified": true
-    },
-    {
-      "id": "83ba",
-      "gameId": "1",
-      "match": "Arsenal vs Man City",
-      "betOn": "Arsenal",
-      "amount": 50,
-      "odds": 2.5,
-      "status": "pending"
     }
   ]
 }
