@@ -1,0 +1,23 @@
+{
+    "games": [
+      {
+        "id": 1,
+        "homeTeam": "Arsenal",
+        "awayTeam": "Man City",
+        "homeOdds": 2.5,
+        "awayOdds": 1.8,
+        "drawOdds": 3.1,
+        "result": null
+      }
+    ],
+    "bets": [
+      {
+        "id": 1,
+        "gameId": 1,
+        "betOn": "Arsenal",
+        "amount": 20,
+        "status": "pending"
+      }
+    ]
+  }
+  

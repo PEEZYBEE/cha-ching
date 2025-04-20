@@ -1,0 +1,163 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "homeTeam": "Arsenal",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      "awayTeam": "Man City",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+      "homeOdds": 2.5,
+      "awayOdds": 1.8,
+      "drawOdds": 3.1,
+      "result": "away"
+    },
+    {
+      "id": "2",
+      "homeTeam": "Liverpool",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      "awayTeam": "Chelsea",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+      "homeOdds": 2.3,
+      "awayOdds": 2,
+      "drawOdds": 3.2,
+      "result": null
+    },
+    {
+      "id": "3",
+      "homeTeam": "Barcelona",
+      "homeTeamLogo": "data:image/png;base64,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",
+      "awayTeam": "Real Madrid",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+      "homeOdds": 2.7,
+      "awayOdds": 2.4,
+      "drawOdds": 3,
+      "result": "away"
+    },
+    {
+      "id": "4",
+      "homeTeam": "Bayern Munich",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_M\u00fcnchen_logo_%282017%29.svg",
+      "awayTeam": "Borussia Dortmund",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
+      "homeOdds": 1.9,
+      "awayOdds": 2.9,
+      "drawOdds": 3.3,
+      "result": "draw"
+    },
+    {
+      "id": "5",
+      "homeTeam": "PSG",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
+      "awayTeam": "Marseille",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/f/fd/Olympique_Marseille_logo.svg",
+      "homeOdds": 1.8,
+      "awayOdds": 3.2,
+      "drawOdds": 3.5,
+      "result": "home"
+    },
+    {
+      "id": "6",
+      "homeTeam": "Inter Milan",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/0/05/FC_Internazionale_Milano_2021.svg",
+      "awayTeam": "AC Milan",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
+      "homeOdds": 2.1,
+      "awayOdds": 2.5,
+      "drawOdds": 3.1,
+      "result": null
+    },
+    {
+      "id": "7",
+      "homeTeam": "Juventus",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg",
+      "awayTeam": "Napoli",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli.svg",
+      "homeOdds": 2.4,
+      "awayOdds": 2.6,
+      "drawOdds": 3,
+      "result": null
+    },
+    {
+      "id": "8",
+      "homeTeam": "Ajax",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/7/79/Ajax_Amsterdam.svg",
+      "awayTeam": "Feyenoord",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Feyenoord_Logo.svg",
+      "homeOdds": 2.2,
+      "awayOdds": 2.8,
+      "drawOdds": 3.4,
+      "result": null
+    },
+    {
+      "id": "9",
+      "homeTeam": "Man United",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+      "awayTeam": "Tottenham",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+      "homeOdds": 2,
+      "awayOdds": 2.6,
+      "drawOdds": 3.3,
+      "result": null
+    },
+    {
+      "id": "10",
+      "homeTeam": "Atletico Madrid",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
+      "awayTeam": "Sevilla",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/3/3c/Sevilla_CF_logo.svg",
+      "homeOdds": 2.3,
+      "awayOdds": 2.9,
+      "drawOdds": 3.1,
+      "result": null
+    }
+  ],
+  "bets": [
+    {
+      "id": "727e",
+      "gameId": "1",
+      "match": "Arsenal vs Man City",
+      "betOn": "Arsenal",
+      "amount": 51,
+      "odds": 2.5,
+      "status": "lost"
+    },
+    {
+      "id": "1ee1",
+      "gameId": "2",
+      "match": "Liverpool vs Chelsea",
+      "betOn": "Chelsea",
+      "amount": 61,
+      "odds": 2,
+      "status": "pending"
+    },
+    {
+      "id": "9ded",
+      "gameId": "1",
+      "match": "Arsenal vs Man City",
+      "betOn": "Arsenal",
+      "amount": 55,
+      "odds": 2.5,
+      "status": "pending"
+    },
+    {
+      "id": "e4a4",
+      "gameId": "4",
+      "match": "Bayern Munich vs Borussia Dortmund",
+      "betOn": "Draw",
+      "amount": 10,
+      "odds": 3.3,
+      "status": "won",
+      "notified": true
+    },
+    {
+      "id": "a130",
+      "gameId": "5",
+      "match": "PSG vs Marseille",
+      "betOn": "PSG",
+      "amount": 70,
+      "odds": 1.8,
+      "status": "won",
+      "notified": true
+    }
+  ]
+}

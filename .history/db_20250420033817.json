@@ -1,0 +1,163 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "homeTeam": "Arsenal",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      "awayTeam": "Man City",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+      "homeOdds": 2.5,
+      "awayOdds": 1.8,
+      "drawOdds": 3.1,
+      "result": "away"
+    },
+    {
+      "id": "2",
+      "homeTeam": "Liverpool",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      "awayTeam": "Chelsea",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+      "homeOdds": 2.3,
+      "awayOdds": 2,
+      "drawOdds": 3.2,
+      "result": null
+    },
+    {
+      "id": "3",
+      "homeTeam": "Barcelona",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/240px-FC_Barcelona_%28crest%29.svg.png",
+      "awayTeam": "Real Madrid",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+      "homeOdds": 2.7,
+      "awayOdds": 2.4,
+      "drawOdds": 3,
+      "result": "away"
+    },
+    {
+      "id": "4",
+      "homeTeam": "Bayern Munich",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_M\u00fcnchen_logo_%282017%29.svg",
+      "awayTeam": "Borussia Dortmund",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
+      "homeOdds": 1.9,
+      "awayOdds": 2.9,
+      "drawOdds": 3.3,
+      "result": "draw"
+    },
+    {
+      "id": "5",
+      "homeTeam": "PSG",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
+      "awayTeam": "Marseille",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/f/fd/Olympique_Marseille_logo.svg",
+      "homeOdds": 1.8,
+      "awayOdds": 3.2,
+      "drawOdds": 3.5,
+      "result": "home"
+    },
+    {
+      "id": "6",
+      "homeTeam": "Inter Milan",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/0/05/FC_Internazionale_Milano_2021.svg",
+      "awayTeam": "AC Milan",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
+      "homeOdds": 2.1,
+      "awayOdds": 2.5,
+      "drawOdds": 3.1,
+      "result": null
+    },
+    {
+      "id": "7",
+      "homeTeam": "Juventus",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg",
+      "awayTeam": "Napoli",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli.svg",
+      "homeOdds": 2.4,
+      "awayOdds": 2.6,
+      "drawOdds": 3,
+      "result": null
+    },
+    {
+      "id": "8",
+      "homeTeam": "Ajax",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/7/79/Ajax_Amsterdam.svg",
+      "awayTeam": "Feyenoord",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/2/2e/Feyenoord_Logo.svg",
+      "homeOdds": 2.2,
+      "awayOdds": 2.8,
+      "drawOdds": 3.4,
+      "result": null
+    },
+    {
+      "id": "9",
+      "homeTeam": "Man United",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+      "awayTeam": "Tottenham",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+      "homeOdds": 2,
+      "awayOdds": 2.6,
+      "drawOdds": 3.3,
+      "result": null
+    },
+    {
+      "id": "10",
+      "homeTeam": "Atletico Madrid",
+      "homeTeamLogo": "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
+      "awayTeam": "Sevilla",
+      "awayTeamLogo": "https://upload.wikimedia.org/wikipedia/en/3/3c/Sevilla_CF_logo.svg",
+      "homeOdds": 2.3,
+      "awayOdds": 2.9,
+      "drawOdds": 3.1,
+      "result": null
+    }
+  ],
+  "bets": [
+    {
+      "id": "727e",
+      "gameId": "1",
+      "match": "Arsenal vs Man City",
+      "betOn": "Arsenal",
+      "amount": 51,
+      "odds": 2.5,
+      "status": "lost"
+    },
+    {
+      "id": "1ee1",
+      "gameId": "2",
+      "match": "Liverpool vs Chelsea",
+      "betOn": "Chelsea",
+      "amount": 61,
+      "odds": 2,
+      "status": "pending"
+    },
+    {
+      "id": "9ded",
+      "gameId": "1",
+      "match": "Arsenal vs Man City",
+      "betOn": "Arsenal",
+      "amount": 55,
+      "odds": 2.5,
+      "status": "pending"
+    },
+    {
+      "id": "e4a4",
+      "gameId": "4",
+      "match": "Bayern Munich vs Borussia Dortmund",
+      "betOn": "Draw",
+      "amount": 10,
+      "odds": 3.3,
+      "status": "won",
+      "notified": true
+    },
+    {
+      "id": "a130",
+      "gameId": "5",
+      "match": "PSG vs Marseille",
+      "betOn": "PSG",
+      "amount": 70,
+      "odds": 1.8,
+      "status": "won",
+      "notified": true
+    }
+  ]
+}

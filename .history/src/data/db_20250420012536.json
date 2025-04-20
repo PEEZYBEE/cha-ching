@@ -1,0 +1,111 @@
+{
+    "games": [
+      {
+        "id": 1,
+        "homeTeam": "Arsenal",
+        "awayTeam": "Man City",
+        "homeOdds": 2.5,
+        "awayOdds": 1.8,
+        "drawOdds": 3.1,
+        "result": null
+      },
+      {
+        "id": 2,
+        "homeTeam": "Liverpool",
+        "awayTeam": "Chelsea",
+        "homeOdds": 2.3,
+        "awayOdds": 2.0,
+        "drawOdds": 3.2,
+        "result": null
+      },
+      {
+        "id": 3,
+        "homeTeam": "Barcelona",
+        "awayTeam": "Real Madrid",
+        "homeOdds": 2.7,
+        "awayOdds": 2.4,
+        "drawOdds": 3.0,
+        "result": null
+      },
+      {
+        "id": 4,
+        "homeTeam": "Bayern Munich",
+        "awayTeam": "Borussia Dortmund",
+        "homeOdds": 1.9,
+        "awayOdds": 2.9,
+        "drawOdds": 3.3,
+        "result": null
+      },
+      {
+        "id": 5,
+        "homeTeam": "PSG",
+        "awayTeam": "Marseille",
+        "homeOdds": 1.8,
+        "awayOdds": 3.2,
+        "drawOdds": 3.5,
+        "result": null
+      },
+      {
+        "id": 6,
+        "homeTeam": "Inter Milan",
+        "awayTeam": "AC Milan",
+        "homeOdds": 2.1,
+        "awayOdds": 2.5,
+        "drawOdds": 3.1,
+        "result": null
+      },
+      {
+        "id": 7,
+        "homeTeam": "Juventus",
+        "awayTeam": "Napoli",
+        "homeOdds": 2.4,
+        "awayOdds": 2.6,
+        "drawOdds": 3.0,
+        "result": null
+      },
+      {
+        "id": 8,
+        "homeTeam": "Ajax",
+        "awayTeam": "Feyenoord",
+        "homeOdds": 2.2,
+        "awayOdds": 2.8,
+        "drawOdds": 3.4,
+        "result": null
+      },
+      {
+        "id": 9,
+        "homeTeam": "Man United",
+        "awayTeam": "Tottenham",
+        "homeOdds": 2.0,
+        "awayOdds": 2.6,
+        "drawOdds": 3.3,
+        "result": null
+      },
+      {
+        "id": 10,
+        "homeTeam": "Atletico Madrid",
+        "awayTeam": "Sevilla",
+        "homeOdds": 2.3,
+        "awayOdds": 2.9,
+        "drawOdds": 3.1,
+        "result": null
+      }
+    ],
+    "bets": [
+      {
+        "id": 1,
+        "gameId": 1,
+        "betOn": "Arsenal",
+        "amount": 20,
+        "status": "pending"
+      },
+      {
+        "id": 2,
+        "gameId": 3,
+        "betOn": "Real Madrid",
+        "amount": 15,
+        "status": "pending"
+      }
+    ]
+  }
+  
