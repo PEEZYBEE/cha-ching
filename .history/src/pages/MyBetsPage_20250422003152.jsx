@@ -9,7 +9,7 @@ export default function MyBetsPage({ myBets: propBets }) {
   const [width, height] = useWindowSize();
 
   useEffect(() => {
-    fetch("https://cha-ching-backend-1.onrender.com/bets")
+    fetch("/bets")
       .then((r) => r.json())
       .then((data) => setMyBets(data));
   }, [propBets]);

@@ -34,13 +34,13 @@ export default function ResultsPage() {
       "Draw";
 
     // Get all bets and update status
-    fetch("https://cha-ching-backend-1.onrender.com/bets")
+    fetch("http://localhost:3000/bets")
       .then((r) => r.json())
       .then((allBets) => {
         const relatedBets = allBets.filter((b) => b.gameId == game.id);
         relatedBets.forEach((bet) => {
           const isWin = bet.betOn === winningTeam;
-          fetch(`https://cha-ching-backend-1.onrender.com/bets/${bet.id}`, {
+          fetch(`http://localhost:3000/bets/${bet.id}`, {
             method: "PATCH",
             headers: {
               "Content-Type": "application/json",

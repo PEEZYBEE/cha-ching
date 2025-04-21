@@ -7,7 +7,7 @@ export default function BetsPage() {
   const [selectedGame, setSelectedGame] = useState(null);
 
   useEffect(() => {
-    fetch("https://cha-ching-backend-1.onrender.com/games")
+    fetch("/games")
       .then((res) => res.json())
       .then((data) => {
         console.log("Fetched games:", data);
@@ -21,7 +21,7 @@ export default function BetsPage() {
   }
 
   function handleSubmitBet(newBet) {
-    fetch("https://cha-ching-backend-1.onrender.com/bets", {
+    fetch("http://localhost:3000/bets", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

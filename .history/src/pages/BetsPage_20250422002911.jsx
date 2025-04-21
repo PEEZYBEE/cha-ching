@@ -21,7 +21,7 @@ export default function BetsPage() {
   }
 
   function handleSubmitBet(newBet) {
-    fetch("https://cha-ching-backend-1.onrender.com/bets", {
+    fetch("/bets", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

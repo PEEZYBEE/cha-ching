@@ -40,7 +40,7 @@ export default function ResultsPage() {
         const relatedBets = allBets.filter((b) => b.gameId == game.id);
         relatedBets.forEach((bet) => {
           const isWin = bet.betOn === winningTeam;
-          fetch(`https://cha-ching-backend-1.onrender.com/bets/${bet.id}`, {
+          fetch(`/bets/${bet.id}`, {
             method: "PATCH",
             headers: {
               "Content-Type": "application/json",
